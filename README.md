@@ -1,27 +1,24 @@
-# Java Academy
+# Spring Calculator
 
-Java Academy is a focused learning platform for studying and practicing the Java programming language.
+A small web calculator built with Java and Spring Boot.
 
-## Initial product scope
+## First version
 
-- Account registration and secure sign-in
-- A structured Java learning path
-- Lessons with examples and knowledge checks
-- Hands-on Java labs with guided feedback
-- Progress tracking for each learner
-- A Spring Boot backend and server-rendered web interface
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Clear validation messages
+- A responsive browser interface
+- Automated tests for the calculation rules
 
-## Development approach
+## Technology
 
-Work is delivered through small, focused commits on feature branches. The `main` branch remains stable and changes are reviewed through pull requests.
-
-## Planned stack
-
-- Java 17+
+- Java 17
 - Spring Boot
-- Spring Security
-- Spring Data JPA
+- Spring MVC
 - Thymeleaf
-- H2 for local development
-- PostgreSQL-ready production configuration
+- Jakarta Validation
 - Maven
+
+Development is organized as small, focused commits on the `codex/spring-calculator` branch.
